@@ -84,7 +84,8 @@ aside img {
 
 figure img {
     height: 500px;
-    border:1px solid;
+    transform: scaleX(-1);
+    margin-left: 50px;
 }
 
 @media screen and (max-width:1000px) {
