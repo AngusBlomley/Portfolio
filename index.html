@@ -7,19 +7,24 @@
     <title>Angus Blomley</title>
     <link rel="stylesheet" href="https://use.typekit.net/ypu2eqq.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script href="app.js"></script>
 </head>
 <body>
     <main>
         <div>
         <article>
-            <h1>Angus Blomley</h1>
-            <h2>Front-End-Developer</h2>
-            <p><a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a></p>
+            <h1 class="blurr">Angus Blomley</h1>
+            <h2 class="blurr">Front-End-Developer</h2>
+            <p class="blurr">
+                <a href="#about-me">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="https://github.com/AngusBlomley">GitHub</a>
+                <a href="https://www.codecademy.com/profiles/AngusBlomley">Codecademy</a>
+                <a href="https://www.codecademy.com/profiles/AngusBlomley/achievements">Certificates</a>
+            </p>
         </article>
-        <aside>
+        <aside class="blurr">
             <img alt="html" src="photos/html.png">
             <img alt="css" src="photos/css-3.png">
             <img alt="javascript" src="photos/js.png">
@@ -27,15 +32,83 @@
             <img alt="github" src="photos/github.png">
             <img alt="photoshop" src="photos/photoshop.png">
             <img alt="premiere" src="photos/premiere-pro.png">
+            <img alt="lightroom" src="photos/lightroom.png">
             <img alt="xd" src="photos/xd.png">
+            <img alt="obs" src="photos/obs.png">
         </aside>
         </div>
-        <figure>
+        <figure class="blurr">
             <img alt="portrait" src="photos/Self-Portrait.jpg">
         </figure>
     </main>
-    <section>
-        <h2>About me.</h2>
+    <section id="about-me">
+        <div>
+            <h2>About me.</h2>
+            <p>I'm a front-end web developer with a love for making websites and apps that are both visually appealing and user-friendly.<br><br> I started learning programming when I was 14 and recently decided to turn it into a career. I have experience building computers and using a vast majority of programs, which has helped me understand the technical aspects of web development.<br><br>I'm always learning and looking for new challenges to tackle. Thanks for checking out my portfolio. If you have any questions, please reach out to me.</p>
+        </div>
     </section>
+    <section id="skills">
+        <div>
+            <h2>Skills</h2>
+            <p>From a young age I have been experimenting with a broad range of programs and tools.</p>
+        </div>
+        <div class="graph">
+            <div class="bar html" style="width: 90%">HTML | 90%</div>
+            <div class="bar css" style="width: 85%">CSS | 85%</div>
+            <div class="bar javascript" style="width: 60%">JavaScript | 60%</div>
+            <div class="bar jquery" style="width: 70%">jQuery | 70%</div>
+            <div class="bar photoshop" style="width: 80%">Photoshop | 80%</div>
+            <div class="bar premiere" style="width: 85%">Premiere | 85%</div>
+            <div class="bar lightroom" style="width: 90%">Lightroom | 90%</div>
+            <div class="bar github" style="width: 80%">GitHub | 80%</div>
+            <div class="bar obs" style="width: 80%">OBS | 80%</div>
+            <div class="bar illustrator" style="width: 60%">Illustrator | 60%</div>
+            <div class="bar adobe-xd" style="width: 85%">Adobe XD | 85%</div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="grid">
+                <div class="cell1">
+                    <a href="https://www.stringbox.co.uk"><h3>String Box</h3></a>
+                </div>
+                <div class="cell2">
+                    <a href="https://www.codecademy.com/profiles/AngusBlomley"><h3>Codecademy</h3></a>
+                </div>
+                <div class="cell3">
+                    <h3>This Portfolio!</h3>
+                </div>
+                <div class="cell4">
+                    <h3>BeFirst</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div>
+            <form class="hidden1 Contactform" action="index.php">
+                <h2>Get in touch.</h2>
+                <label>Name</label>
+                <input type="text" name="name" placeholder="Your name..." />
+      
+                <label>E-Mail</label>
+                <input type="text" name="Email" placeholder="Your email..." />
+      
+                <label>Message</label>
+                <textarea
+                  name="Message"
+                  placeholder="Your message..."
+                  style="height: 200px">
+                </textarea>
+                <center><button class="sendbutton">Send</button></center>
+              </form>
+              <img alt="mountain" src="photos/pexels-trace-hudson-2724664.jpg">
+        </div>
+    </section>
+
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
 </body>
+
 </html>
